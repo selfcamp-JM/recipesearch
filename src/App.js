@@ -30,10 +30,10 @@ class App extends Component {
   //   }
   
   render() {
-    console.log(this.state.recipes);
+    // console.log(this.state.recipes);
     return (
       <React.Fragment >
-        <ResipeList />
+        <ResipeList recipes = {this.state.recipes}/>
         <ResipeDetail />
 
       </React.Fragment>

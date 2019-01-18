@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { recipes } from "../tempDetails";
+// import { recipes } from "../tempDetails";
 
 
 export default class RecipeDetail extends Component {
