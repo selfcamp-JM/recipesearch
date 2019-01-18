@@ -4,7 +4,7 @@ export default class Recipe extends Component {
   render() {
     return (
       <React.Fragment>
-        Hello from recipe
+        <h3>Hello from recipe</h3>
       </React.Fragment>
     )
   }
